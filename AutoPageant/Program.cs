@@ -64,8 +64,6 @@ namespace AutoPageant
 
         private static void Exit(int exitCode)
         {
-            Console.ReadKey();
-
             Environment.Exit(exitCode);
         }
 
