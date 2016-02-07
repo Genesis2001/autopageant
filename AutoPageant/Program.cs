@@ -47,9 +47,7 @@ namespace AutoPageant
 
                 string keyList = string.Join(" ", keyFiles);
 
-                var info = new ProcessStartInfo("pageant", keyList);
-
-                Process.Start(info);
+                Process.Start("pageant", keyList);
             }
             catch (PathTooLongException)
             {
